@@ -1,0 +1,6 @@
+-- 04 · Late delivery vs. review score. YOU write this one (uses order_facts).
+-- a) Review score distribution (1–5) for late vs on-time orders: counts and % within group.
+-- b) Average review_score by days_late bucket: <= -10, -10..-1, 0..3, 4..10, > 10
+--    (CASE WHEN ... END AS late_bucket)
+-- c) Same as (b) but split by customer_state — does the pattern hold everywhere?
+-- These tables feed notebook 02. They show correlation only; notebook 02 is where you argue causation.
