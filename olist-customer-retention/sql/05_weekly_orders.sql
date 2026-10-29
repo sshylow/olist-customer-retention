@@ -1,5 +1,0 @@
--- 05 · Weekly order counts for the forecast in notebook 04. YOU write this one.
--- Use all orders (not just delivered), keyed by week of order_purchase_timestamp:
---   DATE(order_purchase_timestamp, 'weekday 0', '-6 days') gives the Monday of that week.
--- Output: week_start, n_orders, gmv (sum of payment_value)
--- Then look at the first and last weeks — trim partial/near-empty periods before forecasting.
